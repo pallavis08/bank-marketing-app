@@ -1,5 +1,3 @@
 pandas
 streamlit
-scikit-learn==1.3.2
-pickle
-PIL
+scikit-learn==1.0.2
