@@ -33,7 +33,7 @@ This dataset was downloaded from UCI ML repository (Moro, S., Rita, P., & Cortez
   Following steps were used during this project:
    - Exploratory Data Analysis: Code is in EDA.ipynb
    - Model training: A set of model were tried and their performance was evaluated. Code srored in model_training.ipynb file
-   - Inference: Best model was saved in model training step and that model is used to predict for any new data. This was done in 2 steps:
+   - Inference: Best model was saved in model training step and that model is used to predict for any new data. Code is in app.py file. This was done in 2 steps:
     1. First data preparation was done with feature engineering and data cleaning.
     2. Processed data was used for inference
-  - Deployment: The model is deployed using Stremlit on their community server. Try it out at: 
+  - Deployment: The model is deployed using Stremlit on their community server. Try it out at: https://bankmarketingapp.streamlit.app/ . You can use a sample csv file file_to_predict.csv (provided).
